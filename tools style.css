@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #0e0e0e, #111111);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(235, 235, 235);
+}
+
+.page {
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+/* Logo */
+.logo img {
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+/* Username */
+.username {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+/* Instagram icon */
+.insta-icon {
+  width: 30px;
+  margin-bottom: 28px;
+  filter: invert(1);
+  opacity: 0.85;
+}
+
+/* Buttons */
+.games {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.game-btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 18px;
+  background: linear-gradient(180deg, #222, #111);
+  border-radius: 14px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+  box-shadow: 0 0 10px rgba(0,255,255,0.15);
+}
+
+.game-btn img {
+  width: 46px;
+  height: 46px;
+  border-radius: 10px;
+}
+
+.game-btn span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.game-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 18px rgba(0,255,255,0.4);
+}
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  font-size: 12px;
+  opacity: 0.5;
+}
